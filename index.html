@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTVN Buổi 2</title>
+</head>
+<body>
+
+    <table border="1">
+        <tr>
+            <th colspan="2">Đăng Ký</th>
+        </tr>
+        <tr>
+            <td>Full name</td>
+            <td>
+                <form>
+                    <input type="text" placeholder="Nhập fullname">
+                </form>
+            </td>
+    
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td>
+                <form>
+                    <input type="text" placeholder="Nhập tên">
+                </form>
+            </td>
+        
+        </tr>
+        <tr>
+            <td>Passwork</td>
+            <td>
+                <form>
+                    <input type="text" placeholder="Nhập mật khẩu">
+                </form>
+            </td>
+          
+        </tr>
+        <tr>
+            <td>Nhập lại <br> Passwork</td>
+            <td>
+                <form>
+                    <input type="text" placeholder="Nhập lại Passwork">
+                </form>
+            </td>
+
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td>
+                <form>
+                    <input name="gender" type="radio" value="Nam" />Nam
+                    <input name="gender" type="radio" value="Nữ" />Nữ
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Ngày sinh</td>
+            <td>
+                <form>
+                    <select>
+                        <option value="">Ngày 1</option>
+                        <option value="">Ngày 2</option>
+                        <option value="">Ngày 3</option>
+                    </select>
+                    <select>
+                        <option value="">Tháng 1</option>
+                        <option value="">Tháng 2</option>
+                        <option value="">Tháng 3</option>
+                    </select>
+                    <select>
+                        <option value="">Năm 2021</option>
+                        <option value="">Năm 2022</option>
+                        <option value="">Năm 2023</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td>
+                <form>
+                    <textarea rows="2 cols="8"></textarea>
+                </form>
+            </td>
+
+        </tr>
+        <tr>
+            <td>Avatar</td>
+            <td>
+                <form  action="https://httpbin.org/anything" method="post" enctype="multipart/form-data">
+                    <input type="file" name="file">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Sở thích</td>
+            <td>
+                <form>
+                    <input type="checkbox" name="sport" value="Xem phim">Xem phim
+                    <input type="checkbox" name="sport" value="Thể thao">Thể thao
+                    <input type="checkbox" name="sport" value="Web">Web
+                    </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"> 
+                <div class="wrapper">
+                    <form>
+                        <button type="Submit" >Reset</button>
+                        <button type="Submit" >OK</button>
+                    </form>
+                </div>
+               
+            </td>
+
+        </tr>
+    </table>
+    
+</body>
+</html>
